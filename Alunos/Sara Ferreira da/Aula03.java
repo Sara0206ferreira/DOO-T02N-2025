@@ -39,9 +39,9 @@ public class CalculadoraPlantas {
         
         double precoTotal = quantidade * precoUnitario;
         
-        // Verificando se aplica o desconto de 5% para mais de 10 plantas
+        
         if (quantidade > 10) {
-            precoTotal -= precoTotal * 0.05; // Aplicando o desconto de 5%
+            precoTotal -= precoTotal * 0.05; 
             System.out.printf("Desconto de 5%% aplicado! ");
         }
         
